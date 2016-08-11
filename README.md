@@ -1,3 +1,3 @@
-literally just a pretty front-end rock paper scissors game. nobody will know how unlucky you are besides you. ;)
+literally just a responsive, vanilla js rock paper scissors i made for my own front-end/css/ux practice. only you will know how unlucky you are. ;)
 
 [play me!](https://carwallaby.github.io/infinite-rpc)
