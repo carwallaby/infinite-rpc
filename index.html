@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>infinite rpc</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span>infinite</span><br>rock, paper, scissors</h1>
+        </header>
+        <div class="game-container">
+            <p id="outcome">choose wisely:</p>
+            <div class="user-choices">
+                <div data-choice="rock" class="choice">rock</div>
+                <div data-choice="paper" class="choice">paper</div>
+                <div data-choice="scissors" class="choice">scissors</div>
+                <div id="submit" class="disabled">go</div>
+            </div>
+            <div class="user-scores">
+                <p class="high-score">longest streak: <span id="longest-streak" class="score-display" data-score-type="highScore">0</span></p>
+                <p>current streak: <span id="current-streak" class="score-display" data-score-type="currentStreak">0</span></p>
+                <p>total wins: <span id="total-wins" class="score-display" data-score-type="totalWins">0</span></p>
+                <p>total games: <span id="total-games" class="score-display" data-score-type="totalGames">0</span></p>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; <a href="http://github.com/carwallaby">carly weinstein</a>, 2016.</p>
+        </footer>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
