@@ -157,7 +157,9 @@ header h1 span {
     }
 }
 
-@media screen and (min-height: 600px) and (min-width: 480px) {
+@media screen and (min-height: 520px) and (min-width: 480px),
+       screen and (min-height: 645px),
+       screen and (max-width: 350px) and (min-height: 520px) {
     footer {
         width: 100%;
         position: fixed;
